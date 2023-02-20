@@ -12,6 +12,10 @@
     body{
       font-family: 'Poppins'
     }
+
+    svg:hover{
+      cursor:pointer;
+    }
     
     .navbar {
       min-height: 100px;
@@ -157,9 +161,45 @@
       max-height: 300px!important;
     }
 
+    .sk_reviews_badge_container{
+      display : none!important;
+    }
+
+    strong{
+      color : #3a5f8c!important;
+    }
+
+    
+    strong:hover{
+      color : #97d9f8!important;
+    }
+
     .important-word{
       color : #97d9f8;
       font-weight: bold;
+    }
+
+    .fa-star{
+      color : #ffc90e!important
+    }
+
+    .tutorial_link{
+      color : white!important
+    }
+
+    .badge-content{
+      background-color: #3a5f8c!important;
+      
+    }
+
+    .sk_reviews_num_icon{
+      color : #fff!important;
+      font-size: 6em!important;
+      padding : 30px!important;
+    }
+
+    .sk-badge-name{
+      display: none!important;
     }
     
     
@@ -182,13 +222,13 @@
           <a class="nav-link" href="#services">Mes services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mon parcours</a>
+          <a class="nav-link" href="#parcours">Mon parcours</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Avis</a>
+          <a class="nav-link" href="#avis">Avis</a>
         </li>
         <li class="nav-item nav-item-last">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item nav-item-network">
           <a class="nav-link" href="#">
@@ -238,16 +278,16 @@
         </div>
         <div class="col-sm">
           <div class="d-flex flex-column">
-            <div><span class="chiffre">2</span></div>
-            <div><span class="lib-chiffre">couilles symétriques</span></div>
+            <div><span class="chiffre">1</span></div>
+            <div><span class="lib-chiffre">artisant passionné</span></div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <img src="img/eclair22.PNG" width="100%">
+  <img src="img/eclair22.PNG" width="100%" id="services">
   
-  <div style="background-color: #fff; width: 100%; text-align: center; padding-bottom : 40px" id="services">
+  <div style="background-color: #fff; width: 100%; text-align: center; padding-bottom : 40px" >
     <div style="margin-top: 40px; margin-bottom : 50px;">
       <span class="title-area title-service ">Mes services</span>
       <div class="title-service-underline mt-3"></div>
@@ -328,7 +368,7 @@
     </div>
   </div>
   <hr>
-  <div style="background-color: #fff; width: 100%;padding-bottom : 60px;text-align: center;margin-top:60px;">
+  <div style="background-color: #fff; width: 100%;padding-bottom : 60px;text-align: center;margin-top:60px;" id="parcours">
       <div class="splide mb-2" id="splide1" role="group">
         <div class="splide__track">
           <ul class="splide__list">
@@ -340,7 +380,7 @@
               <img src="img/part-shiftech.png" width="30%">
             </li>
             
-            <li class="splide__slide pt-2">
+            <li class="splide__slide">
               <img src="img/part-mx.png" width="30%">
             </li>
             <li class="splide__slide pt-2">
@@ -370,7 +410,7 @@
       </div>
     </div>
   </div>
-  <img src="img/eclair12.PNG" width="100%">
+  <img src="img/eclair12.PNG" width="100%" id="avis">
   
   
     <div style="margin-top: 40px; margin-bottom : 50px; text-align :center">
@@ -380,13 +420,13 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12" style="padding-top : 5%">
-          <div class='sk-ww-google-reviews' data-embed-id='116217'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>    
+          <div class='sk-ww-google-reviews' data-embed-id='116217'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
         </div>
       </div>
     </div>
 
     
-    <div style="background-color: #fff;width: 100%; text-align :center; margin-top: 60px; color : #3a5f8c">
+    <div style="background-color: #fff;width: 100%; text-align :center; margin-top: 60px; color : #3a5f8c" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-sm" style="padding-top : 10%">
