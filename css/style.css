@@ -87,7 +87,7 @@ body{
     line-height: 60px;
   }
   
-  .title-service{
+  .color-dark-blue{
     color: #3a5f8c;
   }
   
@@ -131,38 +131,12 @@ body{
     font-weight: bold;
   }
   
-  .span-service-subtitle{
+  .color-light-blue{
     color: #97d9f8;
-  }
-  
-  .sk-google-review-button-more{
-    display: none;
-    opacity : 0;
-  }
-
-.sk-reviewer-pic{
-display: none!important;
-    opacity : 0!important;
-}
-
-.sk-reviewer-name-action {
-   padding-left: 0px!important;
-  }
-
-.review-list{
-    text-align : center!important;
-  }
-  
-  .sk_reviews_grid-content{
-    height: 300px!important;
-    max-height: 300px!important;
-  }
-
-  .sk_reviews_badge_container{
-    display : none!important;
   }
 
   strong{
+    font-size: 1.3em;
     color : #3a5f8c!important;
   }
 
@@ -176,7 +150,7 @@ display: none!important;
     font-weight: bold;
   }
 
-  .fa-star{
+  .bi-star-fill{
     color : #ffc90e!important
   }
 
@@ -189,16 +163,6 @@ display: none!important;
     
   }
 
-  .sk_reviews_num_icon{
-    color : #fff!important;
-    font-size: 6em!important;
-    padding : 30px!important;
-  }
-
-  .sk-badge-name{
-    display: none!important;
-  }
-
   .cgu-title{
     font-weight: bold;
     font-size: 1.5em;
@@ -209,6 +173,3 @@ display: none!important;
     text-align: center;
     border : 1px solid #fff;
   }
-  
-  
-  
