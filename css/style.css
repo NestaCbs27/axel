@@ -1,0 +1,214 @@
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins'
+  }
+
+  svg:hover{
+    cursor:pointer;
+  }
+  u:hover{
+    cursor:pointer;
+  }
+
+  .hidden{
+    display: none;
+  }
+  
+  .navbar {
+    min-height: 100px;
+    background-color: white!important;
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position : fixed;
+  }
+  
+  .home{
+    padding-top : 50px;
+  }
+  nav .navbar-nav li a{
+    color: #3a5f8c !important;
+    letter-spacing: 0px;
+    font-weight: 800;
+    margin-right : 50px;
+  }
+  
+  .nav-item-last{
+    margin-right : 60px;
+  }
+  
+  .title{
+    color: #3a5f8c;
+    font-size: 6em;
+    letter-spacing: 0px;
+    font-weight: 900;
+  }
+  
+  .subtitle{
+    color : gray;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-size: 15px;
+  }
+  
+  .btn-contact{
+    background-color: #3a5f8c;
+    letter-spacing: 0px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 8px 30px;
+    color: #fff;
+    border-width: 0px; 
+  }
+
+  .btn-contact:hover {
+    cursor: pointer;
+  }
+  
+  .container-chiffres{
+    background-color: #97d9f8; 
+    width: 100%; 
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+  }
+  .chiffre{
+    font-size: 3.5em;
+  }
+  
+  .title-area{
+    font-size: 300%;
+    letter-spacing: 0px;
+    font-weight: 900;
+    line-height: 60px;
+  }
+  
+  .title-service{
+    color: #3a5f8c;
+  }
+  
+  .title-white{
+    color: #fff;
+  }
+  
+  .title-service-underline {
+    border-bottom: 5px solid #97d9f8;
+    width: 10%;
+    margin: 0 auto;
+  }
+  
+  .title-service-underline-fonce {
+    border-bottom: 5px solid #3a5f8c;
+    width: 10%;
+    margin: 0 auto;
+  }
+
+      .title-service-underline-white {
+    border-bottom: 5px solid #fff;
+    width: 10%;
+    margin: 0 auto;
+  }
+  
+  .card-service{
+    border-color: #97d9f8;
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 14%);
+    min-height: 250px;
+    border-radius: 5px;
+  }
+  
+  .sk_reviews_grid-content{
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 14%)!important;
+  }
+  
+  .span-service-title{
+    color: #3a5f8c;
+    letter-spacing: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .span-service-subtitle{
+    color: #97d9f8;
+  }
+  
+  .sk-google-review-button-more{
+    display: none;
+    opacity : 0;
+  }
+
+.sk-reviewer-pic{
+display: none!important;
+    opacity : 0!important;
+}
+
+.sk-reviewer-name-action {
+   padding-left: 0px!important;
+  }
+
+.review-list{
+    text-align : center!important;
+  }
+  
+  .sk_reviews_grid-content{
+    height: 300px!important;
+    max-height: 300px!important;
+  }
+
+  .sk_reviews_badge_container{
+    display : none!important;
+  }
+
+  strong{
+    color : #3a5f8c!important;
+  }
+
+  
+  strong:hover{
+    color : #97d9f8!important;
+  }
+
+  .important-word{
+    color : #97d9f8;
+    font-weight: bold;
+  }
+
+  .fa-star{
+    color : #ffc90e!important
+  }
+
+  .tutorial_link{
+    color : white!important
+  }
+
+  .badge-content{
+    background-color: #3a5f8c!important;
+    
+  }
+
+  .sk_reviews_num_icon{
+    color : #fff!important;
+    font-size: 6em!important;
+    padding : 30px!important;
+  }
+
+  .sk-badge-name{
+    display: none!important;
+  }
+
+  .cgu-title{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .splide__slide{
+    width: 400px;
+    text-align: center;
+    border : 1px solid #fff;
+  }
+  
+  
+  
