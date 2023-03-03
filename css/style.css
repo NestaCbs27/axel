@@ -1,0 +1,311 @@
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins'
+  
+}
+a{
+  text-decoration: none!important;
+  color: inherit!important; 
+}
+
+svg:hover{
+  cursor:pointer;
+}
+u:hover{
+  cursor:pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+.navbar {
+  min-height: 100px;
+  background-color: white!important;
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  position : fixed;
+}
+
+.home{
+  padding-top : 50px;
+}
+
+nav .navbar-nav li a{
+  color: #005282 !important;
+  letter-spacing: 0px;
+  font-weight: 800;
+  margin-right : 50px;
+}
+
+.nav-item-last{
+  margin-right : 60px;
+}
+
+.title{
+  color: #005282;
+  font-size: 4em;
+  letter-spacing: 0px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.subtitle-h2{
+  color : #005282;
+  font-size: 18px;
+}
+
+.subtitle-resume-h2{
+  color : #005282;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.subtitle{
+  color : gray;
+  font-size: 18px;
+}
+
+.subtitle-irve{
+  line-height: 26px;
+  letter-spacing: 0px;
+  font-size: 20px;
+}
+
+.btn-contact{
+  background-color: #005282;
+  letter-spacing: 0px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 8px 30px;
+  color: #fff;
+  border-width: 0px; 
+  margin-top: 50px;
+}
+
+.btn-contact:hover {
+  cursor: pointer;
+}
+
+.container-chiffres{
+  background-color: #005282; 
+  width: 100%; 
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  padding-bottom: 35px;
+}
+.chiffre{
+  font-size: 3.5em;
+}
+
+.title-area{
+  font-size: 300%;
+  letter-spacing: 0px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.color-dark-blue{
+  color: #005282;
+}
+
+.title-white{
+  color: #fff;
+}
+
+.title-service-underline {
+  border-bottom: 5px solid #97d9f8;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.title-service-underline-fonce {
+  border-bottom: 5px solid #005282;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.title-service-underline-white {
+  border-bottom: 5px solid #fff;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.card-service{
+  border-color: #97d9f8;
+  box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 14%);
+  min-height: 250px;
+  border-radius: 5px;
+}
+
+.sk_reviews_grid-content{
+  box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 14%)!important;
+}
+
+.span-service-title{
+  color: #005282;
+  letter-spacing: 0px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.color-light-blue{
+  color: #97d9f8;
+}
+.color-light-green{
+  color: #8cc63f;
+}
+
+
+strong{
+  font-size: 1.3em;
+  color : #005282!important;
+}
+
+.important-word{
+  color : #97d9f8;
+  font-weight: bold;
+}
+
+.bi-star-fill{
+  color : #f9a41b!important
+}
+
+.tutorial_link{
+  color : white!important
+}
+
+.badge-content{
+  background-color: #005282!important;
+  
+}
+
+.cgu-title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.splide__slide{
+  width: 400px;
+  text-align: center;
+  border : 1px solid #fff;
+}
+
+.phone-container{
+  background-color: #f9a41b;
+  letter-spacing: 0px;
+  font-weight: 900;
+  border-radius: 30px;
+  color: #fff;
+  border-width: 0px; 
+  padding: 4px 20px;
+  font-size: 1.5em!important;
+}
+
+.padding-top-16-prct{
+  padding-top : 16%;
+}
+
+.padding-top-10-prct{
+  padding-top : 10%;
+}
+
+.padding-top-30-px{
+  padding-top: 30px;
+}
+
+.line-section{
+  background-color: #97d9f8; 
+  width: 100%; 
+  height: 10px;
+}
+
+.container-services{
+  background-color: #fff; 
+  width: 100%; 
+  text-align: center; 
+  padding-bottom : 40px
+}
+
+.pointer:hover{
+  cursor:pointer;
+}
+
+.margin-title-section{
+  margin-top: 40px; 
+  margin-bottom : 50px; 
+  text-align :center;
+}
+
+.container-partner{
+  background-color: #fff; 
+  width: 100%;
+  padding-bottom : 60px;
+  margin-top:60px;
+}
+
+.container-parcours{
+  background-color: #005282;
+  width: 100%;
+  color:#fff; 
+  text-align: center; 
+  padding-bottom : 30px;
+}
+
+.padding-title-parcours{
+  padding-top: 60px; 
+  padding-bottom : 60px;
+}
+
+.position-img-parcours{
+  padding-top : 4%; 
+  padding-bottom : 10%
+}
+
+.design-img-parcours{
+  border-radius:50%;
+  border : 8px solid #f9a41b
+}
+
+.padding-text-parcours{
+  padding-top : 2%
+}
+
+.container-contact{
+  background-color: #fff;
+  width: 100%; 
+  text-align :center; 
+  margin-top: 60px; 
+  color : #005282
+}
+
+.contact-text-h1{
+  font-size: 2em; 
+  font-weight: bold
+}
+
+.contact-text-h2{
+  font-size: 1.2em; 
+  font-weight: bold
+}
+
+.container-footer{
+  background-color: #005282; 
+  width: 100%; 
+  color : #FFF; 
+  text-align : left; 
+  padding-bottom : 50px; 
+  font-weight: lighter!important; 
+  font-size: 0.8em
+}
+
+.name{
+  font-size: 1.4em; 
+  font-weight: bold
+}
